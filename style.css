@@ -50,7 +50,7 @@ h2 {
 
 .action {
     background: var(--Pink);
-    padding: 15px 55px;
+    padding: 15px 45px;
     border-radius: 1.5625rem;
     font-size: 0.9375rem;
     margin-top: 30px;
@@ -73,6 +73,19 @@ body {
 
 
 
+.wrapper {
+    position: relative;
+}
+
+header {
+    background: transparent;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+}
+
+
+
 
 
 /*------------------------------------*\
@@ -91,7 +104,7 @@ body {
 .navigation-menu {
     display: flex;
     justify-content: space-between;
-    padding: 1.25rem;
+    padding: 25px 18px;
 }
 
 .logo-nav img {
@@ -546,6 +559,10 @@ footer {
 
     body {
         font-size: 20px;
+    }
+
+    header {
+        padding: 20px;
     }
 
     .logo-nav img {
